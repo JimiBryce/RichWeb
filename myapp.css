@@ -1,1 +1,25 @@
 /* CSS declarations go here */
+
+body {pading-top: 60px; }
+
+#newQuestion textarea {
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+
+#newQuestion {
+    margin-left: 20px;
+}
+
+.removeQuestion {
+    width: 18px;
+}
+
+.td-question-body{
+    overflow:hidden;
+}
+
+.icon-trash{
+    cursor:pointer;
+}
