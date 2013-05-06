@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfc2919-d94d-4355-b338-71e7ba1e3aca" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Jim\Documents\GitHub\RichWeb\Hello.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp.css" afterPath="$PROJECT_DIR$/myapp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp.html" afterPath="$PROJECT_DIR$/myapp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp.js" afterPath="$PROJECT_DIR$/myapp.js" />
@@ -10,12 +9,12 @@
     </list>
     <ignored path="RichWeb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367418251828" ignored="false" />
+    <file path="/Dummy.txt" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367854727862" ignored="false" />
     <file path="$PROJECT_DIR$/../.idea/workspace.xml" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367240365350" ignored="false" />
     <file path="/README.md" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367241535737" ignored="false" />
-    <file path="/myapp.html" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367853467546" ignored="false" />
-    <file path="/myapp.css" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367852046838" ignored="false" />
-    <file path="/myapp.js" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367853988915" ignored="false" />
+    <file path="/myapp.html" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367880236691" ignored="false" />
+    <file path="/myapp.css" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367880392548" ignored="false" />
+    <file path="/myapp.js" changelist="ddfc2919-d94d-4355-b338-71e7ba1e3aca" time="1367863629055" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +37,10 @@
       <file leaf-file-name="myapp.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.530572">
-              <folding />
+            <state line="45" column="48" selection-start="916" selection-end="916" vertical-scroll-proportion="1.3636364">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,12 +48,8 @@
       <file leaf-file-name="myapp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="30" selection-start="0" selection-end="1980" vertical-scroll-proportion="-0.84615386">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-              </folding>
+            <state line="85" column="78" selection-start="2794" selection-end="2794" vertical-scroll-proportion="-13.730769">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +57,7 @@
       <file leaf-file-name="myapp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="0" selection-end="297" vertical-scroll-proportion="0.0">
+            <state line="62" column="32" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,16 +83,17 @@
       <list>
         <option value="$PROJECT_DIR$/Hello.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/myapp.css" />
         <option value="$PROJECT_DIR$/myapp.html" />
+        <option value="$PROJECT_DIR$/myapp.css" />
         <option value="$PROJECT_DIR$/myapp.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="682" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -195,18 +193,22 @@
       <created>1367418257314</created>
       <updated>1367418257314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Meteor App 2">
+      <created>1367854737420</created>
+      <updated>1367854737420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="682" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1881804" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0900968" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -263,7 +265,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meteor App1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meteor App 2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -282,6 +284,7 @@
     <MESSAGE value="Description" />
     <MESSAGE value="Meteor App" />
     <MESSAGE value="Meteor App1" />
+    <MESSAGE value="Meteor App 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -294,28 +297,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp.css">
+    <entry file="file://$PROJECT_DIR$/myapp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="0" selection-end="297" vertical-scroll-proportion="0.0">
+        <state line="85" column="78" selection-start="2794" selection-end="2794" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp.html">
+    <entry file="file://$PROJECT_DIR$/myapp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="30" selection-start="0" selection-end="1980" vertical-scroll-proportion="-0.84615386">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-          </folding>
+        <state line="62" column="32" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.530572">
-          <folding />
+        <state line="45" column="48" selection-start="916" selection-end="916" vertical-scroll-proportion="1.3636364">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

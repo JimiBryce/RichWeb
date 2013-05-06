@@ -1,3 +1,6 @@
+/* James Bryce */
+/* C09795731 */
+
 Questions = new Meteor.Collection("questions");
 
 if (Meteor.isClient)
@@ -9,7 +12,8 @@ if (Meteor.isClient)
 
         'submit form': function (event)
         {
-            var $userid = Meteor.userId();
+            /* Store user id */
+            var $user = Meteor.userId();
 
             var $body = $('#questionBody');
             event.preventDefault();
@@ -25,6 +29,7 @@ if (Meteor.isClient)
         }
     });
 
+    /* Delete a question */
     Template.removeQuestion.events(
     {
         'click #removeQuestion': function(event)
@@ -33,7 +38,19 @@ if (Meteor.isClient)
         }
     });
 
-    Template.displayQuestion.questions = Questions.find({}, {sort: {created_at: -1}});
+    /* Display Question */
+    Template.displayQuestion.questions = Questions.find(
+        {}, {sort: {created_at: -1}});
+
+
+    /* Rating Systems (Needs more functionality) */
+    Template.rateQuestion.events(
+        {
+            'click #rateQuestion': function(event)
+            {
+                Questions.update({body:this.body});
+            }
+        });
 }
 
 if (Meteor.isServer)

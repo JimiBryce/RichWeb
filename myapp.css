@@ -1,14 +1,51 @@
 /* CSS declarations go here */
+/* James Bryce */
+/* C09795731 */
 
-body {pading-top: 60px; }
 
-#newQuestion textarea {
+/* set the colour for the heading */
+h1 {color: #00ffc7;}
+
+/* Set the textarea so it cannot be resized and sets the height/width and border */
+textarea{resize: none;
+    border: 3px double #CCCCCC;
+    width: 230px;
+    height: 60px;
+}
+
+/* submit button created using a button generator*/
+.submitButton {
+    font-family: 'courier new';
+    color: #05056A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #45B5DE;
+    padding: 9px 19px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px groove #3866A3;
+    background: #1B5480;
+    background: linear-gradient(top,  #116A85,  #2ECACF);
+    background: -ms-linear-gradient(top,  #116A85,  #2ECACF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#116A85), to(#2ECACF));
+    background: -moz-linear-gradient(top,  #116A85,  #2ECACF);
+}
+.submitButton:hover {
+    color: #14396A;
+    background: #30C4CF;
+    background: linear-gradient(top,  #57CFBB,  #4FEEEE);
+    background: -ms-linear-gradient(top,  #57CFBB,  #4FEEEE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#57CFBB), to(#4FEEEE));
+    background: -moz-linear-gradient(top,  #57CFBB,  #4FEEEE);
+}
+
+.newQuestion textarea {
     margin: 0;
     padding: 0;
     margin-right: 15px;
 }
 
-#newQuestion {
+.newQuestion {
     margin-left: 20px;
 }
 
@@ -16,10 +53,26 @@ body {pading-top: 60px; }
     width: 18px;
 }
 
-.td-question-body{
-    overflow:hidden;
-}
 
 .icon-trash{
     cursor:pointer;
+}
+
+
+/* Used for the rating icons*/
+/* Used online tutorial for this*/
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    cursor:pointer;
+    content: "\2605";
+    position: absolute;
 }
